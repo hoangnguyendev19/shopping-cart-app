@@ -94,7 +94,7 @@ function DetailPage() {
         <Snackbar
           open={open}
           onClose={handleNoticeClose}
-          autoHideDuration={1500}
+          autoHideDuration={1000}
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
         >
           <Alert variant="filled" severity="success">
